@@ -10,6 +10,7 @@
     --fonte-destaque: "Changa One", sans-serif;
     --fonte-padrao: "Carter One", system-ui;
     --fonte-descricao: "Patrick Hand", sans-serif;
+    --fonte-normal: arial, helvetica, sans-serif;
  }
  * {
     margin: 0px;
@@ -48,9 +49,6 @@ main a:hover {
     margin-right:  10px;
     padding: 10px;
 }
-h1.canais {
-    margin: 30px 0px 20px 0px;
-}
 div.video {
     background-color: #012e6591;
     margin: 0px -03px 20px -03px;
@@ -71,18 +69,25 @@ h1{
     font-weight: normal;
     font-style: normal;
     margin-bottom: 15px;
-    text-shadow: 2px 2px 5px rgba(17, 17, 17, 0.464);
+    
+}
+h1.canais {
+    margin: 30px 0px 20px 0px;
+}
+h1.fonte {
+    text-shadow: 2px 2px 5px rgba(237, 234, 234, 0.803);
 }
 p {
-    font-family: var(--fonte-descricao);
+    font-family: var(--fonte-normal);
     margin: 10px 0px;
     font-size: 1.1em;
 }
 li {
-    font-family: var(--fonte-descricao);
+    font-family: var(--fonte-normal);
     margin: 9px 0px;
     font-size: 1.1em; /*Tamanho da letra*/
     list-style-position: inside;
+    
 }
 mark {
     font-family: var(--fonte-padrao);
@@ -108,18 +113,21 @@ aside > ul {
     list-style-position: inside; /*Posição da <ul>*/
 }
 nav > p {
-    margin-bottom: 40px;
+   
 }
 nav > p > a {
-    margin-left: 10px;
+    margin-left: 30px;
     padding-left: 10px;
     padding-right: 10px;
 }
 nav > p > img {
-    margin: -20px 0px;
+   margin: 0px 30px 08px 80px;
 }
 nav > h1 {
     margin: 35px 0px -8px 0px;
+}
+a.centro {
+    margin-left: 60px;
 }
 a.livepix {
    margin-left: 0px ;
