@@ -113,20 +113,26 @@ aside > ul {
     list-style-type: '\1F5F8\0020';
     list-style-position: inside; /*Posição da <ul>*/
 }
-nav > div > img {
-    
-    
-}
-div#twitch {
-  
+img.img-centro {
+    margin-left: 50px;
 }
 
-nav > h1 {
+#youtube {
+    margin-left: 17px;
     
+}
+#twitch {
+    margin-left: 21px;
+}
+#kick {
+    margin-left: 30px;
+}
+#tiktok {
+    margin-left: 24px;
 }
 div.quadrado {
     display: inline-table;
-    border: 2px solid black;
+    
     width: 180px;
     height: 120px;
 }
