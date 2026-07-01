@@ -88,9 +88,8 @@ div#quadrado img {
     box-sizing: border-box;
 }
 div#quadrado img:hover {
-    border: 3px solid #ffffff;
+    border: 3px solid var(--Texto-Principal);
     transform: translate(0px, -7px);
-    border-color: var(--Roxo-Gaming);
     box-shadow: 0 12px 25px rgba(123, 44, 191, 0.5);
     transition: transform 1s;
 } 
