@@ -81,7 +81,7 @@ header picture img {
 
 div#quadrado img {
     background-color: #012E65;
-    width: 110px;
+    width: 74px;
     margin: 10px ;
     border-radius: 50%;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.603);
@@ -250,6 +250,9 @@ footer {
     picture > img {
         max-width: 880px;
         box-shadow: 0px -15px 35px 10px rgba(123, 44, 191, 0.5);
+    }
+    div#quadrado img {
+        width: 110px;
     }
 }
 
